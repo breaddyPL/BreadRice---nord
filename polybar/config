@@ -1,15 +1,5 @@
 
 ;
-; THIS IS AN EXAMPLE CONFIGURATION FILE!
-; IT IS NOT SUPPOSED TO WORK OUT OF THE BOX SINCE IS CONTAINS
-; SETTINGS THAT ARE SPECIFIC TO THE MACHINE WHICH WAS USED
-; TO GENERATE IT.
-; Please refer to the web documentation hosted at:
-; https://github.com/polybar/polybar#configuration
-; and
-; https://github.com/polybar/polybar/wiki/Configuration
-; if you want to automatically generate one for you.
-;
 ;==========================================================
 ;
 ;
@@ -21,10 +11,7 @@
 ;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
 ;
 ;
-;   To learn more about how to configure Polybar
-;   go to https://github.com/polybar/polybar
-;
-;   The README contains a lot of information
+;               modified by breaddy ;] (i am not the original creator of this config)
 ;
 ;==========================================================
 
@@ -40,7 +27,7 @@ secondary = #4C566A
 alert = #4C566A
 
 
-;colors i added cuz im a gigachad
+[colors]
 bg      = #282a36
 bg-alt  = #282828
 fg      = #EBDBB2
@@ -54,8 +41,8 @@ melon   = #ff5555
 yellow  = #f1fa8c
 purple  = #bd93f9
 
-;what kind of bloat calls the bar newbar bro 
-[bar/newbar]
+
+[bar]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
 height = 35
